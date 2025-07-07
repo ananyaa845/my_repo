@@ -1,0 +1,47 @@
+.image img{                        /* ID card */
+    width: 150px;
+    padding-left: 70px;
+    padding-top: 15px;
+    
+}
+.prof{
+    display: grid;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 457px;
+    margin-right: 510px;
+    margin-top: 100px;
+    padding-top: 20px;
+    background-color: white;
+}
+.text p{
+    padding-left: 55px;
+}
+h1{
+    text-align: center;
+}
+.text footer{
+    border:1px solid black;
+    width: 100%;
+    background-color: black;
+    color: azure;
+    text-align: center;
+    border-bottom-right-radius : 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.flower img{
+    width: 120px;
+    position: absolute;
+    bottom: 480px; left: 410px;
+
+}
+.prof header{
+    border: 1px solid silver;
+    text-align: center;
+    background-color: yellowgreen;
+
+}
+body{
+    background-color: papayawhip;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .box{
+            border: 1px solid black;
+            width: 500px;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-left: 390px;
+            background-color:white;
+        }
+        .form-box{
+            width:95%;
+            height: 40px;
+            border-radius: 10px;
+            border: 1px solid rgb(19, 19, 19);             
+        }
+    </style>
+</head>
+<body style="background-color:#E3DE61">
+    <h1 style="text-align: center;">Registration Form</h1>
+    <form>
+        <div class="box">
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="name" placeholder="Enter your name" class="form-box"><br><br>
+            <label for="Email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter your email" class="form-box"><br><br>
+            <label for="age">Age</label><br>
+            <input type="text" name="age" id="age" placeholder="Enter your age" class="form-box"><br><br>
+
+            <label for="option">Which option best describes you?</label><br>
+            <select name="option" id="option">
+                <option>Select an option</option>
+                <option value="Student">Student</option>
+                <option value="graduate">Graduate</option>
+            </select><br><br>
+
+            <label for="friend">Would you recommend to be a friend?</label><br>
+            <input type="radio" name="friend" id="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" name="friend" id="no">
+            <label for="no">No</label><br>
+            <input type="radio" id="maybe" name="friend">
+            <label for="maybe">Maybe</label><br><br>
+
+            <label for="lang">Languages and frameworks known:</label><br>
+            <input type="checkbox" name="lang" id="c">
+            <label for="c">C</label><br>
+            <input type="checkbox" name="lang" id="c++">
+            <label for="c++" >C++</label><br>
+            <input type="checkbox" name="lang" id="c#">
+            <label for="c#">C#</label><br>
+            <input type="checkbox" name="lang" id="java">
+            <label for="java">Java</label><br>
+            <input type="checkbox" name="lang" id="python">
+            <label for="python">Python</label><br>
+            <input type="checkbox" name="lang" id="js">
+            <label for="js">JavaScript</label><br>
+            <input type="checkbox" name="lang" id="ang">
+            Angular <br>
+            <input type="checkbox" name="lang" id="react">
+            React<br>
+            <input type="checkbox" name="lang" id="dj">
+            Django<br>
+            <input type="checkbox" name="lang" id="spring">
+            Spring<br><br>
+
+            <label for="msg">Any comments or suggestions:</label><br><br>
+            <textarea type="message" name="msg" id="msg" placeholder="Enter your comment here" class="form-box" style="height: 100px;"></textarea><br><br>
+
+            <input type="submit" value="Submit" class="form-box" style="background-color:#80ac2f;" >
+        </div> 
+    </form>
+    
+</body>
+</html>

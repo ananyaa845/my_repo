@@ -1,0 +1,54 @@
+.image img                              /* Mini profile*/
+{
+    border: 2px solid #a997d1;
+    width: 27%;
+    position: relative;
+    bottom: 70px;
+    border-radius: 400px;
+    margin-left: 5px;
+    margin-bottom: 110px;
+    
+}
+h1{
+    text-align: center;
+    font-style: oblique;
+    text-decoration: underline;
+    color: #652121;
+}
+.text{
+
+  /* border: 1px solid black; */
+    width: 350px;
+    min-height: 15px;
+    padding: 20px;
+    position: relative;
+    right: 600px;
+    top: 30px   ;
+    bottom: 50px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 23px;
+    color:#333;
+    
+
+}
+#paragraph{
+    color: rgb(38, 134, 99);
+   
+}
+.prof{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 30px;
+  /*  border: 1px solid black;  */
+
+    
+    
+    
+
+}
+body{
+     background-color: #e7d7c9; 
+     margin: 0;
+}
